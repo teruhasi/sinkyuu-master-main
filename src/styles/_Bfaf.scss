@@ -1,0 +1,58 @@
+main {
+  background-color: #404950;
+  margin: 0 auto;
+  text-align: center;
+  max-width: 375px;
+  min-width: 100%;
+}
+
+.kimigasuki {
+  line-height: 40px;
+  color: #ffffff;
+
+  span {
+    color: #ef641e;
+    font-size: 20px;
+  }
+}
+
+.Saitou {
+  margin-bottom: 49px;
+  position: relative;
+  z-index: 1;
+  width: 390px;
+}
+
+.active {
+  display: block;
+}
+
+.af_Saitou,
+.af_Tuduku,
+.af_Watanabe {
+  display: none;
+}
+
+.Tuduku,
+.Watanabe {
+  position: relative;
+  z-index: 1;
+  margin-bottom: 49px;
+  width: 390px;
+}
+
+.gsap-repeatAnime {
+  margin-top: 40px;
+  text-align: center;
+}
+
+.gsap-img {
+  object-fit: cover;
+  object-position: 35%;
+  box-shadow: 5px 5px 25px #7e7e7e, -5px -5px 25px #ffffff;
+}
+.nandemo{
+  margin: 0 auto;
+  width: 390px;
+  background-color: #404950;
+}

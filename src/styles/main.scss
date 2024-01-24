@@ -1,0 +1,17 @@
+@use "fv";
+@use "header";
+@use "Bg";
+@use "footer";
+@use "Bfaf";
+@use "Hamon";
+@use "letgo";
+@use "Rain";
+@use "top";
+@import url("https://fonts.googleapis.com/css2?family=Noto+Sans+JP&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Noto Sans JP";
+}

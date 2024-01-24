@@ -1,0 +1,57 @@
+.fv {
+  img {
+    max-width: 390px;
+    min-width: 390px;
+    height: 100%;
+  }
+
+  position: relative;
+
+  &-text {
+    position: absolute;
+    top: 450px;
+    left: 20px;
+  }
+
+  &now {
+    position: absolute;
+    top: 500px;
+    left: 20px;
+    font-size: 72px;
+    color: #ff5c00;
+  }
+}
+
+.fvetxt {
+  position: absolute;
+}
+
+img {
+  display: block;
+  width: 80%;
+  margin: 0 auto;
+}
+
+.rain-container {
+  position: relative;
+  overflow: hidden;
+}
+
+.raindrop {
+  position: absolute;
+  width: 2px;
+  height: 10px;
+  background-color: #00f;
+  z-index: 99999;
+  animation: fall linear infinite;
+}
+
+.none {
+  display: none;
+}
+
+@keyframes fall {
+  to {
+    transform: translateY(100vh);
+  }
+}
