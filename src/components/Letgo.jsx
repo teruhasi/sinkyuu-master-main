@@ -64,33 +64,33 @@ function TravelSection() {
       <img src="/images/kumo.svg" className="kumo1" ref={ref}></img>
       <img src="/images/kumo.svg" className="kumo2" ref={ref}></img>
       <h3 className="saa">一歩踏み出そう</h3>
-      <img src="/images/sorotori.svg" alt="Image 1" className="kyan" />
+      
       <p className="mozi">
         solptoriキャンペーン
         <br />
-        旅に出よう!!
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;旅に出よう!!
         <br />
-        大学生限定の
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;大学生限定の
         <br />
-        キャンペーン
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;キャンペーン
         <br />
-        を通してsorotoriで成長しよう
+        sorotoriで成長しよう
       </p>
       <img src="/images/kp1.PNG" alt="Image 1" className="kyan" />
-      <p className="mozi">1. インスタでsorotoriのアカウントをフォロー!</p>
+      <p className="mozi">1. インスタでsorotoriの<br></br>&nbsp;&nbsp;&nbsp;&nbsp;アカウントをフォロー</p>
       <img src="/images/kp2.PNG" alt="Image 2" className="kyan" />
       <p className="mozi">
         2. sorotoriの投稿で
         <br />
-        #からやぶりでソロトリを
+        &nbsp;&nbsp;&nbsp;#からやぶりソロトリを
         <br />
-        メッションして投稿する
+        &nbsp;&nbsp;&nbsp;メッションし投稿!
       </p>
       <img src="/images/kp3.PNG" alt="Image 3" className="kyan" />
       <p className="mozi">
         3.旅先の旅館の代金が
         <br />
-        二割引きになる
+        &nbsp;&nbsp;&nbsp;&nbsp;二割引きになる
       </p>
     </section>
   );
